@@ -1,0 +1,15 @@
+# Composer dependencies and lockfile
+/vendor/
+/composer.lock
+
+# PHPUnit cache and coverage output
+/.phpunit.cache/
+/coverage/
+
+# IDE and editor settings
+/.idea/
+/.vscode/
+
+# OS / misc
+.DS_Store
+*.log

@@ -1,0 +1,17 @@
+%WAFL 0.1
+@import: ./shared.wafl
+
+app<App>:
+  name: "Demo"
+  version = 1 + 1
+  colors:
+    primary: !rgb(255, 0, 0)
+
+list:
+  - first
+  - if $ENV.SHOW_EXTRA: second
+
+settings:
+  - name: alpha
+  - if $ENV.SHOW_EXTRA:
+      name: beta

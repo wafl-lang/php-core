@@ -1,0 +1,9 @@
+@schema:
+  App:
+    name: string
+    version: number
+    colors:
+      primary: string
+
+shared:
+  from: "import"
