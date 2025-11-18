@@ -1,5 +1,5 @@
 {
-  "name": "wafl/php-core",
+  "name": "wafl-lang/php-core",
   "description": "PHP implementation of the WAFL core",
   "homepage": "https://github.com/wafl-lang/php-core",
   "type": "library",
